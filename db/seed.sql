@@ -28,4 +28,4 @@ CREATE TABLE order_items (
     product_id INT REFERENCES products(product_id),
     qty INT,
     price DECIMAL
-)
+);
